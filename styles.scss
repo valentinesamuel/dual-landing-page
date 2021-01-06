@@ -47,9 +47,9 @@ header {
 }
 
 .left {
-  background: url("ps.jpg");
+  background: url("./ps.jpeg");
   background-repeat: no-repeat;
-  background-size: cont;
+  background-size: cover;
   background-color: $left-bg-color;
 
   .btn:hover {
@@ -58,7 +58,7 @@ header {
 }
 
 .right {
-  background: url("xbox.jpg");
+  background: url("./xbox.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   .btn:hover {

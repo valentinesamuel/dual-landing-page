@@ -41,9 +41,9 @@ header h1 {
 }
 
 .left {
-  background: url("ps.jpg");
+  background: url("./ps.jpeg");
   background-repeat: no-repeat;
-  background-size: cont;
+  background-size: cover;
   background-color: rgba(87, 84, 236, 0.7);
 }
 
@@ -52,7 +52,7 @@ header h1 {
 }
 
 .right {
-  background: url("xbox.jpg");
+  background: url("./xbox.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
