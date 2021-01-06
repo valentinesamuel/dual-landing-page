@@ -101,4 +101,28 @@ header h1 {
   height: 100%;
   background-color: rgba(43, 43, 43, 0.8);
 }
+
+.hover-left .left {
+  width: 75%;
+}
+
+.hover-left .right {
+  width: 25%;
+}
+
+.hover-right .right {
+  width: 75%;
+}
+
+.hover-right .left {
+  width: 25%;
+}
+
+.half.left,
+.half.right,
+.half.left::before,
+.half.right::before {
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out;
+}
 /*# sourceMappingURL=styles.css.map */

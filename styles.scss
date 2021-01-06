@@ -101,3 +101,23 @@ header {
   height: 100%;
   background-color: $right-bg-color;
 }
+
+.hover-left .left {
+  width: $hover-width;
+}
+.hover-left .right {
+  width: $other-width;
+}
+.hover-right .right {
+  width: $hover-width;
+}
+.hover-right .left {
+  width: $other-width;
+}
+
+.half.left,
+.half.right,
+.half.left::before,
+.half.right::before {
+  transition: all $speed ease-in-out;
+}
